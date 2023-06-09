@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: grid;
+    border: 1rem solid #3a630d;
+    grid-template-columns: 20rem 20rem;
+    grid-auto-rows: 20rem;
+    grid-gap: 3rem;
+    justify-content: center;
+    align-content: center;
+}
+.item {
+    background-color: #add901;
+    width: 20rem;
+    height: 20rem;
+    display: grid;
+}
+.item-content {
+    background-color: #62a81e;
+    width: 6rem;
+    height: 10rem;
+    place-self: end;
+}
