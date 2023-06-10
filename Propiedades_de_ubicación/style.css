@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    border: 0.5rem dotted #0070bb;
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 15rem 15rem 15rem;
+    grid-template-areas:
+    "item1 item2 item2"
+    "item3 item3 item4"
+    "item4-1 item5 item6";
+    place-content: center;
+}
+.light {
+    background-color: #cbee39;
+}
+.med {
+    background-color: #70bc04;
+}
+.dark {
+    background-color: #258300
+}
+.item1 {
+    grid-area: item1;
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.item4 {
+    grid-area: item4;
+}
+.item4-1 {
+    grid-area: item4-1;
+}
+.item5 {
+    grid-area: item5;
+}
+.item6 {
+    grid-area: item6;
+}
